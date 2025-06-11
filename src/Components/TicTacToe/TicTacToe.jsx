@@ -11,19 +11,17 @@ const TicTacToe = () => {
   let [lock,setLock]=useState(false);
   let titleRef=useRef(null);
   const toggle=(e,num)=>{
-    if(lock){
-        return 0;
-    }
-    if(count%2==0){
+    if (data[num] !== "" || lock) return;
+
+    if(count%2===0){
         e.target.innerHTML=`<img src='${cross_icon}'>`;
         data[num]="x";
-        setCount(++count)
     }
     else{
         e.target.innerHTML=`<img src='${circle_icon}'>`;
         data[num]="o";
-        setCount(++count)
     }
+    setCount(prevCount => prevCount + 1);
     checkWin()
   }
 
@@ -44,8 +42,11 @@ const TicTacToe = () => {
         if(winner==="x"){
             titleRef.current.innerHTML=`Congratulations: <img src='${cross_icon}'> Wins`
         }
-        else{
+        else if(winner==="o"){
             titleRef.current.innerHTML=`Congratulations: <img src='${circle_icon}'> Wins`
+        }
+        else{
+          titleRef.current.innerHTML=`Tie Happened! 😅`
         }
     }
 
@@ -53,6 +54,9 @@ const TicTacToe = () => {
       if (data[a] === data[b] && data[b] === data[c] && data[a] !== "") { // our winning condition
         won(data[c]);
         break;
+      }
+      else if (count===8){
+        won(null)
       }
     }
   }

@@ -40,7 +40,7 @@
 
 <h2>📷 Preview</h2>
 <p>
-  <img src="https://user-images.githubusercontent.com/00000000/your_preview_screenshot.png" alt="Tic Tac Toe Screenshot" width="80%"/>
+  <img src="preview.png" alt="Tic Tac Toe Screenshot" width="80%"/>
 </p>
 
 <h2>📁 Project Setup (for developers)</h2>

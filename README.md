@@ -47,6 +47,7 @@ git clone https://github.com/Aditya-Shukla-Professional/Tic_Tac_Toe.git
 cd Tic_Tac_Toe
 npm install
 npm start
+```
 
 ### Connect with me:
 

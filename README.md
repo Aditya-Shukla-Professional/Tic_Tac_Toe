@@ -1,52 +1,45 @@
-<h1 align="center">🎮 Tic Tac Toe Game - ReactJS</h1>
+🎮 Tic Tac Toe Game - ReactJS
+=============================
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Live-Demo-green?style=for-the-badge" alt="Live Demo Badge"/>
-  <br/>
-  <a href="https://aditya-shukla-professional.github.io/Tic_Tac_Toe/" target="_blank">
-    <strong>Click Here to Play the Game 🚀</strong>
-  </a>
-</p>
+![Live Demo Badge](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge)  
+[**Click Here to Play the Game 🚀**](https://aditya-shukla-professional.github.io/Tic_Tac_Toe/)
 
-<hr/>
+* * *
 
-<h2>📌 About</h2>
-<p>
-  This is a classic 2-player <strong>Tic Tac Toe</strong> game built using <b>React.js</b>. The goal is simple — get 3 marks in a row (horizontally, vertically, or diagonally) before your opponent does!
-</p>
+📌 About
+--------
 
-<h2>💡 Features</h2>
-<ul>
-  <li>Two-player functionality (X vs O)</li>
-  <li>Automatic win/tie detection</li>
-  <li>Responsive UI with icons</li>
-  <li>Reset game functionality</li>
-  <li>Built with modern React practices</li>
-</ul>
+This is a classic 2-player **Tic Tac Toe** game built using **React.js**. The goal is simple — get 3 marks in a row (horizontally, vertically, or diagonally) before your opponent does!
 
-<h2>🖥️ Technologies Used</h2>
-<ul>
-  <li>ReactJS (Functional Components)</li>
-  <li>JavaScript (ES6+)</li>
-  <li>CSS for styling</li>
-  <li>HTML</li>
-</ul>
+💡 Features
+-----------
 
-<h2>🚀 Hosting</h2>
-<ul>
-  <li>Hosted on: <b>GitHub Pages</b></li>
-  <li>URL: <a href="https://aditya-shukla-professional.github.io/Tic_Tac_Toe/" target="_blank">https://aditya-shukla-professional.github.io/Tic_Tac_Toe/</a></li>
-</ul>
+*   Two-player functionality (X vs O)
+*   Automatic win/tie detection
+*   Responsive UI with icons
+*   Reset game functionality
+*   Built with modern React practices
 
-<h2>📷 Preview</h2>
-<p>
-  <img src="preview.png" alt="Tic Tac Toe Screenshot" width="80%"/>
-</p>
+🖥️ Technologies Used
+---------------------
 
-<h2>📁 Project Setup (for developers)</h2>
+*   ReactJS (Functional Components)
+*   JavaScript (ES6+)
+*   CSS for styling
+*   HTML
 
-```bash
-git clone https://github.com/Aditya-Shukla-Professional/Tic_Tac_Toe.git
-cd Tic_Tac_Toe
-npm install
-npm start
+🚀 Hosting
+----------
+
+*   Hosted on: **GitHub Pages**
+*   URL: [https://aditya-shukla-professional.github.io/Tic\_Tac\_Toe/](https://aditya-shukla-professional.github.io/Tic_Tac_Toe/)
+
+📷 Preview
+----------
+
+![Tic Tac Toe Screenshot](preview.png)
+
+📁 Project Setup (for developers)
+---------------------------------
+
+\`\`\`bash git clone https://github.com/Aditya-Shukla-Professional/Tic\_Tac\_Toe.git cd Tic\_Tac\_Toe npm install npm start

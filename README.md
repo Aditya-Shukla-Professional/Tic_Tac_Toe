@@ -49,6 +49,8 @@ npm install
 npm start
 ```
 
+* * *
+
 ### Connect with me:
 
 <p align="left">

@@ -42,4 +42,16 @@ This is a classic 2-player **Tic Tac Toe** game built using **React.js**. The go
 📁 Project Setup (for developers)
 ---------------------------------
 
-\`\`\`bash git clone https://github.com/Aditya-Shukla-Professional/Tic\_Tac\_Toe.git cd Tic\_Tac\_Toe npm install npm start
+```bash
+git clone https://github.com/Aditya-Shukla-Professional/Tic_Tac_Toe.git
+cd Tic_Tac_Toe
+npm install
+npm start
+
+### Connect with me:
+
+<p align="left">
+<a href="https://www.linkedin.com/in/aditya-shukla-8b3494341/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="aditya shukla" height="30" width="40" /></a>
+</p>
+
+**Made with ❤️ by Aditya Shukla**
